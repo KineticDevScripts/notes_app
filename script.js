@@ -137,7 +137,7 @@ function printNote(title, description, date) {
     <body>
       <div class="print-container">
         <h2 style="text-align: center;">Note Title:</h2> 
-        <h2 style="text-align: center;">${title}</h2> 
+        <p style="text-align: center;">${title}</p> 
         <h2 style="text-align: center;">Note Description:</h2> 
         <p>${description.replaceAll("<br/>", "\n")}</p>
         <h2 style="text-align: center;">Created Date:</h2> 
