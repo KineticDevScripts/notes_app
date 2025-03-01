@@ -149,11 +149,6 @@ function printNote(title, description, date) {
           setTimeout(() => window.close(), 100);
         };
       </script>
-      <footer style="text-align: center; padding: 20px;">
-        <p>Kinetic Dev Notes App</p>
-        <p>&copy; 2025 Kinetic Dev. All rights reserved.</p>
-      </footer>
-
     </body>
     </html>
   `);
